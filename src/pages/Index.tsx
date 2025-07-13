@@ -198,10 +198,32 @@ const Index = () => {
         )}
 
         {/* Footer */}
-        <div className="text-center mt-12 text-muted-foreground">
+        <div className="text-center mt-12 text-muted-foreground space-y-4 pb-8">
           <p className="text-sm">
             💤 Sleep well, wake up richer! 💤
           </p>
+          <div className="text-xs space-y-2">
+            <p>Powered by mobile mining technology</p>
+            <div className="flex justify-center gap-4 flex-wrap">
+              <a 
+                href="https://xmrt.io" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-money-gold hover:text-money-gold-glow transition-colors"
+              >
+                XMRT.io
+              </a>
+              <span>•</span>
+              <a 
+                href="https://mobilemonero.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-money-gold hover:text-money-gold-glow transition-colors"
+              >
+                MobileMonero.com
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
