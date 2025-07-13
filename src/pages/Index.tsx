@@ -6,6 +6,7 @@ import { StepCard } from '@/components/StepCard';
 import { CopyButton } from '@/components/CopyButton';
 import { CodeBlock } from '@/components/CodeBlock';
 import nightSkyHero from '@/assets/night-sky-hero.jpg';
+import nightMovesLogo from '@/assets/night-moves-logo.png';
 
 const Index = () => {
   const [completedSteps, setCompletedSteps] = useState<number[]>([]);
@@ -51,8 +52,8 @@ const Index = () => {
       <div className="relative z-10 container mx-auto px-4 py-8 max-w-md">
         {/* Hero Section */}
         <div className="text-center mb-12">
-          <div className="flex items-center justify-center gap-2 mb-4">
-            <Moon className="w-8 h-8 text-money-gold animate-glow-pulse" />
+          <div className="flex items-center justify-center gap-3 mb-4">
+            <img src={nightMovesLogo} alt="Night Moves" className="w-10 h-10" />
             <h1 className="text-3xl font-bold bg-gradient-to-r from-money-gold to-money-gold-glow bg-clip-text text-transparent">
               Night Moves
             </h1>
