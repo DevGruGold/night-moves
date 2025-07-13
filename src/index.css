@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Night Moves Design System - All colors, gradients, fonts, etc defined here
+   Cozy nighttime theme with golden money accents and dark blue/purple colors
+   All colors MUST be HSL for consistency
 */
 
 @layer base {

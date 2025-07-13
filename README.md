@@ -1,73 +1,74 @@
-# Welcome to your Lovable project
+# Night Moves - Make Money While You Sleep
 
-## Project info
+## About Night Moves
 
-**URL**: https://lovable.dev/projects/4f0c5e19-f4fb-4656-8a50-8532f594349f
+Night Moves is a simple mobile app that helps people make money while they sleep by turning their charging phone into a money-making machine. The entire process is just: download one app, copy/paste twice, and start earning overnight.
 
-## How can I edit this code?
+## Core Concept
 
-There are several ways of editing your application.
+Your phone charges every night anyway. Night Moves turns that charging time into earning time. No complicated setup, no technical knowledge needed - just plug in your phone before bed and wake up with money in your pocket.
 
-**Use Lovable**
+## How It Works
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4f0c5e19-f4fb-4656-8a50-8532f594349f) and start prompting.
+1. **Download Termux** - A free terminal app (auto-detects iPhone/Android)
+2. **Install Python** - Copy/paste: `pkg install python`
+3. **Start Earning** - Copy/paste the earnings script and you're done!
 
-Changes made via Lovable will be committed automatically to this repo.
+## Features
 
-**Use your preferred IDE**
+- **Super Simple Setup** - Just 3 easy steps
+- **Mobile-First Design** - Optimized for phones
+- **Night Theme** - Easy on the eyes for bedtime setup
+- **Real-Time Progress** - Track your setup progress
+- **Copy/Paste Interface** - No typing required
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technologies Used
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **Vite** - Fast build tool
+- **TypeScript** - Type safety
+- **React** - UI framework
+- **Tailwind CSS** - Styling
+- **shadcn/ui** - UI components
+- **Lucide React** - Icons
 
-## How can I deploy this project?
+## Development
 
-Simply open [Lovable](https://lovable.dev/projects/4f0c5e19-f4fb-4656-8a50-8532f594349f) and click on Share -> Publish.
+To run this project locally:
 
-## Can I connect a custom domain to my Lovable project?
+```sh
+# Clone the repository
+git clone <YOUR_GIT_URL>
 
-Yes, you can!
+# Navigate to the project directory
+cd night-moves
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+# Install dependencies
+npm install
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Start the development server
+npm run dev
+```
+
+## Design System
+
+Night Moves uses a custom design system with:
+- **Dark theme** with cozy night colors
+- **Golden accents** for money-related elements
+- **Blue/purple gradients** for interactive elements
+- **Mobile-optimized** touch targets
+- **Smooth animations** for enhanced UX
+
+## App Flow
+
+1. **Landing Page** - Hero section with value proposition
+2. **Step 1** - Download Termux with device detection
+3. **Step 2** - Install Python with copy/paste interface
+4. **Step 3** - Run earnings script with celebration
+5. **Success State** - Confirmation and next steps
+
+## References
+
+- **XMRT.io** - Mining pool reference
+- **MobileMonero.com** - Mobile mining information
