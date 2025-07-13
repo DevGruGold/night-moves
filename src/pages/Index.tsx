@@ -54,7 +54,7 @@ const Index = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-3 mb-4">
             <img src={nightMovesLogo} alt="Night Moves" className="w-10 h-10" />
-            <h1 className="text-3xl font-bold bg-gradient-to-r from-money-gold to-money-gold-glow bg-clip-text text-transparent">
+            <h1 className="text-3xl font-bold font-logo bg-gradient-to-r from-money-gold to-money-gold-glow bg-clip-text text-transparent">
               Night Moves
             </h1>
           </div>
